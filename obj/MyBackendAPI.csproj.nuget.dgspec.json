@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workshop\\2020\\GlobalAzure\\MyBackendAPI\\MyBackendAPI.csproj": {}
+    "D:\\Workshop\\2020\\GAB\\MyBackendAPI\\MyBackendAPI.csproj": {}
   },
   "projects": {
-    "D:\\Workshop\\2020\\GlobalAzure\\MyBackendAPI\\MyBackendAPI.csproj": {
+    "D:\\Workshop\\2020\\GAB\\MyBackendAPI\\MyBackendAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workshop\\2020\\GlobalAzure\\MyBackendAPI\\MyBackendAPI.csproj",
+        "projectUniqueName": "D:\\Workshop\\2020\\GAB\\MyBackendAPI\\MyBackendAPI.csproj",
         "projectName": "MyBackendAPI",
-        "projectPath": "D:\\Workshop\\2020\\GlobalAzure\\MyBackendAPI\\MyBackendAPI.csproj",
+        "projectPath": "D:\\Workshop\\2020\\GAB\\MyBackendAPI\\MyBackendAPI.csproj",
         "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
-        "outputPath": "D:\\Workshop\\2020\\GlobalAzure\\MyBackendAPI\\obj\\",
+        "outputPath": "D:\\Workshop\\2020\\GAB\\MyBackendAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +42,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.13.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
